@@ -1,5 +1,11 @@
+pip install streamlit
+
 import streamlit as st
 import openai
+
+[secrets]
+api_key = "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"
+another_secret = "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"
 
 # Set up the OpenAI API
 openai.api_key = st.secrets["api_key"]
