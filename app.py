@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set up the OpenAI API
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["api_key"]
 
 
 def generate_code(input_string):
