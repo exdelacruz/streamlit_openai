@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+import secrets
 
 [secrets]
 api_key = "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"
